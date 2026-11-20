@@ -1,0 +1,18 @@
+{
+  "name": "DAYFLOW",
+  "short_name": "Dayflow",
+  "description": "A calm workspace for tasks, notes, habits, and focus.",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2585ff",
+  "icons": [
+    { "src": "/icon/192", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon/512", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

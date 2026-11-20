@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#2585ff" />
+    <title>Dayflow — Offline</title>
+    <style>
+      :root{color-scheme:light dark;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f8ff;color:#17243b}*{box-sizing:border-box}body{min-height:100dvh;margin:0;display:grid;place-items:center;padding:24px}.card{width:min(100%,420px);padding:36px 28px;border:1px solid #e5eafb;border-radius:28px;background:#fff;box-shadow:0 24px 80px #233a7712;text-align:center}.mark{width:66px;height:66px;margin:0 auto 24px;display:grid;place-items:center;border-radius:22px;background:linear-gradient(145deg,#3fdcff,#2585ff 48%,#584cf6);color:#fff;font-weight:800;font-size:38px}.mark svg{width:44px;height:44px}.eyebrow{font-size:11px;letter-spacing:.16em;font-weight:750;color:#5c78ed}.card h1{margin:10px 0;font-size:30px;letter-spacing:-.04em}.card p{margin:0 auto 24px;max-width:32ch;color:#77839a;line-height:1.65;font-size:15px}.card button{min-height:48px;padding:0 18px;border:0;border-radius:14px;background:#397dff;color:white;font:700 15px ui-sans-serif,system-ui,sans-serif;cursor:pointer}@media(prefers-color-scheme:dark){:root{background:#111827;color:#edf3ff}.card{background:#1b2535;border-color:#303d52}.card p{color:#aab7cc}}
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M9 7.5c0-1.38 1.12-2.5 2.5-2.5H20c8.28 0 15 6.72 15 15S28.28 35 20 35h-8.5A2.5 2.5 0 0 1 9 32.5v-25Z" stroke="white" stroke-width="3.2" stroke-linecap="round"/><path d="M15 13.5h6.3a6.5 6.5 0 0 1 0 13H15m-2.5-6.5h13" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="eyebrow">DAYFLOW</div>
+      <h1>You’re offline for now.</h1>
+      <p>Reconnect to the internet, then reopen Dayflow. Your saved workspace stays on this device.</p>
+      <button type="button" onclick="location.reload()">Try again</button>
+    </main>
+  </body>
+</html>
